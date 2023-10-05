@@ -1,0 +1,74 @@
+body {
+    background-color: 
+    font-family: helvetica;
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hero {
+    background-color: #D1362D;
+  }
+  
+  .hero-white-bg {
+    background-color: white;
+    border: solid;
+    padding: 2em;
+    margin: 9px;
+  }
+  
+  .photoScroll {
+  
+    -moz-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -moz-animation: scroll-left 2s linear infinite;
+    -webkit-animation: scroll-left 2s linear infinite;
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  
+  @-moz-keyframes scroll-left {
+    0% {
+      -moz-transform: translateX(0%);
+    }
+  
+    100% {
+      -moz-transform: translateX(-100%);
+    }
+  }
+  
+  @-webkit-keyframes scroll-left {
+    0% {
+      -webkit-transform: translateX(0%);
+    }
+  
+    100% {
+      -webkit-transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      -moz-transform: translateX(0%);
+      -webkit-transform: translateX(0%);
+      transform: translateX(0%);
+    }
+  
+    100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  
+  .kaden{
+    background-color: white;
+    border: solid;
+    
+  }
+  
